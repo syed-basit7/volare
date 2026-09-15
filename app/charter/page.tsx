@@ -229,7 +229,7 @@ export default function Charter() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
               <div className="lg:col-span-6 space-y-5">
                 <span className="font-mono text-sm font-semibold uppercase tracking-[0.2em] text-[#8C6D3F]">
-                  The Pilot Difference
+                The Pilot Difference
                 </span>
                 <blockquote className="font-serif text-2xl sm:text-4xl font-light italic text-[#0A1628] leading-snug">
                   "I've sat in the left seat of the aircraft I'm recommending. That changes everything about how I broker a charter."
@@ -240,7 +240,7 @@ export default function Charter() {
               </div>
 
               <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {pilotPillars.map((item, idx) => (
+                {pilotPillars.map((item, idx) => ( 
                   <div
                     key={idx}
                     className="p-6 rounded-2xl bg-white space-y-3"
